@@ -37,3 +37,5 @@ module HasTwoOrThree
   end
 
 end
+
+ActiveRecord::Base.include HasTwoOrThree if defined?(ActiveRecord::Base)
