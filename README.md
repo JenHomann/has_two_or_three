@@ -1,6 +1,10 @@
 # HasTwoOrThree
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/has_two_or_three`. To experiment with that code, run `bin/console` for an interactive prompt.
+The most important thing to remember when using this gem is that it is pronounced as if you're asking a question-- and you're not really sure how many child records you'll need. So -- "Has two or three?" -- and throw in a bit of a shrug for good measure. Here, Elmo will demonstrate:
+
+![](https://media.giphy.com/media/jPAdK8Nfzzwt2/giphy.gif?response_id=591f38c1bf7cf91970c7adc7)
+
+Also, it should be clearly outlined that this gem was designed for me to learn how to build and publish a gem. It isn't entirely practical, except for the incredibly rare instance in which your application needs an object to have exactly two or three child objects ... in which case, please feel free to use this gem. But note: it is not yet tested, mostly because that was not a part of what I was trying to learn. But I'll get to that at some point. Or you can submit a PR if you _really_ want to write some tests.
 
 ## Installation
 
@@ -20,7 +24,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Once you've installed the gem, set up your has_two_or_three association just as you would any other. Any optional arguments will be configured as expected.
+
+```ruby
+class Parent < ActiveRecord::Base
+  has_two_or_three :children, inverse_of: :parents, dependent: :destroy
+end
+
+class Child < AciveRecord::Base
+  belongs_to :parent, inverse_of: :children
+end
+```
 
 ## Development
 
