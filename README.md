@@ -1,6 +1,6 @@
 # HasTwoOrThree
 
-The most important thing to remember when using this gem is that it is pronounced as if you're asking a question-- and you're not really sure how many child records you'll need. So -- "Has two or three?" -- and throw in a bit of a shrug for good measure. Here, Elmo will demonstrate:
+The most important thing to remember when using this gem is that it is pronounced as if you're asking a question and you're not really sure how many child records you'll need. So, "has two or three?" ... and throw in a bit of a shrug for good measure. Here, Elmo will demonstrate:
 
 ![](https://media.giphy.com/media/jPAdK8Nfzzwt2/giphy.gif?response_id=591f38c1bf7cf91970c7adc7)
 
