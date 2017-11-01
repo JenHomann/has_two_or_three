@@ -1,10 +1,10 @@
-# HasTwoOrThree
+# About has_two_or_three
 
 The most important thing to remember when using this gem is that it is pronounced as if you're asking a question and you're not really sure how many child records you'll need. So, "has two or three?" ... and throw in a bit of a shrug for good measure. Here, Elmo will demonstrate:
 
 ![](https://media.giphy.com/media/jPAdK8Nfzzwt2/giphy.gif?response_id=591f38c1bf7cf91970c7adc7)
 
-Also, it should be clearly outlined that this gem was designed for me to learn how to build and publish a gem. It isn't entirely practical, except for the incredibly rare instance in which your application needs an object to have exactly two or three child objects ... in which case, please feel free to use this gem. But note: it is not yet tested, mostly because that was not a part of what I was trying to learn. But I'll get to that at some point. Or you can submit a PR if you _really_ want to write some tests.
+Also, it should be clear that this gem is a joke. It was designed for me to learn how to build and publish a gem. It isn't entirely practical, except for the incredibly rare instance in which your application needs an object to have exactly two or three child objects ... in which case, please feel free to use this gem. But note: it is not yet tested, mostly because that was not a part of what I was trying to learn. But I'll get to that at some point. Or you can submit a PR if you _really_ want to write some tests.
 
 ## Installation
 
